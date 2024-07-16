@@ -1,0 +1,17 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.2"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="TheaterManagerController">
+    <Label text="Theater Manager Dashboard"/>
+    <Button text="View Dashboard" onAction="#viewDashboard"/>
+    <Button text="Update Movie Schedule" onAction="#updateMovieSchedule"/>
+    <Button text="Retrieve Daily Schedule" onAction="#retrieveDailySchedule"/>
+    <Button text="Monitor Ticket Sales" onAction="#monitorTicketSales"/>
+    <Button text="Generate Weekly Revenue Report" onAction="#generateWeeklyRevenueReport"/>
+    <Button text="Allocate Theater for Event" onAction="#allocateTheaterForEvent"/>
+    <Button text="Update Seating Arrangement" onAction="#updateSeatingArrangement"/>
+    <Button text="Handle Customer Complaint" onAction="#handleCustomerComplaint"/>
+</VBox>
